@@ -37,10 +37,16 @@ Get the top selling action games in russia
 GET /api/apps/?collection=topselling_paid&category=GAME_ACTION&country=ru
 ```
 
-Get an app detail
+Get an Android app detail
 
 ```http
-GET /api/apps/com.dxco.pandavszombies/
+GET /api/apps/com.dxco.pandavszombies/?lang=CN
+```
+
+Get an iOS app detail
+
+```http
+GET /api/itunesapps/984044296/?country=DE
 ```
 
 Get an app detail in spanish
